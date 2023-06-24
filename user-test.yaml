@@ -1,6 +1,6 @@
 spring:
   jpa:
-    show-sql: false
+    show-sql: true
   datasource:
     url: jdbc:mysql://34.68.129.10:3306/chatapp_user?allowPublicKeyRetrieval=true&useSSL=false
     username: chatapp-user-mysql

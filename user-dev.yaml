@@ -1,2 +1,8 @@
-user:
-  dev: dev works
+spring:
+  jpa:
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://host.docker.internal:3306/chatapp_user
+    username: root
+    password: "root"
+    driver-class-name: com.mysql.cj.jdbc.Driver
