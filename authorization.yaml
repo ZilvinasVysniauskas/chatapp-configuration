@@ -1,0 +1,33 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: "162108664997-bqpapm5nn8a35nndm3d4g17s9lf8mk9j.apps.googleusercontent.com"
+            client-secret: "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"
+            redirectUri: "{baseUrl}/oauth2/callback/{registrationId}"
+            scope:
+              - email
+              - profile
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+  jpa:
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://34.68.129.10:3306/chatapp_user?allowPublicKeyRetrieval=true&useSSL=false
+    username: chatapp-user-mysql
+    password: "&14EM'^9SDMh1kx|"
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+logging:
+  level:
+    org.springframework.security: DEBUG
+
+app:
+  authorizedRedirectUris:
+    - "http://localhost:4200/oauth2/redirect"
+  tokenExpirationMsec: 864000000
+  tokenSecret: "SlhncUhoS29kVkFaT2lnQkNVWURwQmFVdTVXS2JTSFRDVWJ6a2c9PXJaL1BvNHF0dHQvaTBYSXRLS2Mxb3Fnbg=="
