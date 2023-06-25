@@ -31,9 +31,3 @@ app:
     - "http://localhost:4200/oauth2/redirect"
   tokenExpirationMsec: 864000000
   tokenSecret: "SlhncUhoS29kVkFaT2lnQkNVWURwQmFVdTVXS2JTSFRDVWJ6a2c9PXJaL1BvNHF0dHQvaTBYSXRLS2Mxb3Fnbg=="
-  # Add more app configuration properties here
-
-amazon:
-  s3:
-    accessKey: "AKIATRWDS2WY6NWHEWEM"
-    secretKey: "8HXHTx8mUmFGKPW4fF5/bEHa9t1APW+dBXQtlv8OX"
