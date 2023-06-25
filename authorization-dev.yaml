@@ -12,6 +12,7 @@ spring:
                 - email
                 - profile
   datasource:
+    password: root
     url: jdbc:mysql://localhost:3306/chatapp_user
 
 app:
