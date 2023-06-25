@@ -4,5 +4,5 @@ spring:
   datasource:
     url: jdbc:mysql://34.68.129.10:3306/chatapp_user?allowPublicKeyRetrieval=true&useSSL=false
     username: chatapp-user-mysql
-    password: "&14EM'^9SDMh1kx|"
+    password: "{chipper}3c4e651db15c43143600e74a1aa076dc3423eff4ead2f863849f65025814c130"
     driver-class-name: com.mysql.cj.jdbc.Driver
