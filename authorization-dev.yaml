@@ -12,7 +12,7 @@ spring:
                 - email
                 - profile
   datasource:
-    url: jdbc:mysql://host.docker.internal:3306/chatapp_user
+    url: jdbc:mysql://localhost:3306/chatapp_user
 
 app:
   tokenSecret: "{chipper}77e17cd303607bfef5667878fa391d89d2e29bdd9b2790f15ffd0aca4abdf3d6f0d80f546be16c0b9f84c01146c30b63a842fdaca9068caf0b4640a35a8c75889013354c4c8b36258e843efce72c23cd541d24d16c7695b1b32240794aa62fd96d02a94f8d54359b4aae3d6f34edea27
