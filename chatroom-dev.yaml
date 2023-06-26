@@ -1,0 +1,14 @@
+spring:
+  data:
+    mongodb:
+      uri: "mongodb+srv://test_user:Test123@cluster0.cfmd8.mongodb.net/chat_app_db"
+
+server:
+  port: 8083
+
+eureka:
+  instance:
+    hostname: host.docker.internal
+  client:
+    serviceUrl:
+      defaultZone: http://host.docker.internal:8761/eureka/
