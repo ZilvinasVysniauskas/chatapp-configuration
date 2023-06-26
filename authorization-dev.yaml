@@ -9,7 +9,7 @@ spring:
             client-secret: "{cipher}3d04254124ac551c087d3215be61de6a32061194a3dd4397978bb932c9d1ca5e67f34b01790624a6cca2a091060e33f545bbe395294068d82a7911c22721a759"
   datasource:
     password: root
-    url: jdbc:mysql://localhost:3306/chatapp_user
+    url: jdbc:mysql://host.docker.internal:3306/chatapp_user
 
 app:
   tokenSecret: "{cipher}fed37076c23adebdffa96dccf5ec8442a503fc7f6706883be08d0020ceaff17d0587c61d0ed9f8a3e8daabbdf7dc6675b38393d56b685f261b5fea2702901aef8bed8cff58c90e642450be0d4c0cc3f1136b2fb347b1102a15d1a270af8de1da49ac715cc2a4b902014b4c30c827305d"
