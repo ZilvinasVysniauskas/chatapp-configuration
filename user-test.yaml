@@ -5,4 +5,4 @@ spring:
     password: "{cipher}0c5b4f6385476057936a2bd163484555c047dc537c506b84566b046fbacc4516b4bb146f8721bd21f7d0c13630b01387"
 
 user:
-  test: "test from config2"
+  test: "test from config3"
