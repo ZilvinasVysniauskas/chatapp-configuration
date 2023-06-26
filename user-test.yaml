@@ -2,6 +2,6 @@ spring:
   datasource:
     url: jdbc:mysql://34.68.129.10:3306/chatapp_user?allowPublicKeyRetrieval=true&useSSL=false
     username: chatapp-user-mysql
-    password: "{cipher}cde897a5f174ef372e6b317ab1ec09c7e76a72fb7ff437d458c43d448fb912f9"
+    password: "{cipher}e1bb18a2f187f4c4eec29c520d15e156d8b3a423733b7a5032b173c8527422222977eb076948cfda6524933e419ca324"
 
 user:test: "test prop works"
